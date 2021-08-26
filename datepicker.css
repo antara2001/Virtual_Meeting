@@ -1,0 +1,211 @@
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url(TTNorms-Regular.otf);
+  }
+.datepicker {
+    background: linear-gradient(180deg, #2D2D40 0%, #2D2D40 0.01%, #171726 73.02%);
+    border-radius: 4.7px;
+   
+    color: white;
+  
+  
+    
+}
+.datepicker .active {
+   
+    background: #666686 !important;
+    border-radius: 5.64px !important;
+} 
+
+
+
+
+
+.schedule{
+   
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: TT Norms;
+font-style: normal;
+font-weight: bold;
+
+}
+.cal{
+    margin-top: 55px;
+    background: linear-gradient(180deg, #2D2D40 0%, #2D2D40 0.01%, #171726 73.02%);
+    border-radius: 4.7px;
+    width: 100%;
+    height: 364px;
+  }
+#next{
+    background: linear-gradient(126.91deg, #E22128 11.2%, rgba(160, 4, 10, 0) 139.75%);
+filter: drop-shadow(-3.76px -3.76px 9.4px rgba(199, 199, 199, 0.25)) drop-shadow(0px 3.76px 3.76px rgba(0, 0, 0, 0.25));
+border-radius: 4.7px;
+    margin-top: 216px;
+    color: white;
+    font-family: TT Norms;
+    font-size: 12.22px;
+  
+}
+
+/* translate(0); */
+.modal .modal-dialog-aside{ 
+	width: 326px; max-width:80%; border-radius: 15px; height: 540px; margin:0;   transition: transform .2s;
+}
+.modal .modal-dialog-aside .modal-content{  height: inherit; border:0; border-radius: 15px;}
+.modal .modal-dialog-aside .modal-content .modal-body{ overflow-y: auto }
+.modal.fixed-left .modal-dialog-aside{ margin-left:140px;  transform: translateX(100%); }
+.modal.fixed-right .modal-dialog-aside{ margin-left:1000px; transform: translateX(-100%); }
+.modal.show .modal-dialog-aside{ transform: translateX(0);  }
+
+.modal .modal-body{
+    margin-top: -4px;
+    background-color: #0F0F12;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-bottom: -2px;
+}
+.modal .modal-dialog-aside{
+    
+   
+    margin-top: 5%;
+}
+
+.modal-video{
+    position: absolute;
+width: 31.96px;
+height: 31.96px;
+left: 65%;
+top: 30.6px;
+
+background: linear-gradient(102.63deg, #272731 -0.99%, #2D2D3B 101.07%);
+box-shadow: -5.8468px -5.8468px 46.06px rgba(179, 184, 190, 0.32), 5.84964px 5.84964px 17.5489px rgba(0, 0, 0, 0.68);
+border-radius: 9.4px;
+}
+.modal-calender{
+    position: absolute;
+width: 31.96px;
+height: 31.96px;
+left: 80%;
+top: 30.6px;
+
+background: linear-gradient(102.63deg, #272731 -0.99%, #2D2D3B 101.07%);
+box-shadow: -5.8468px -5.8468px 46.06px rgba(179, 184, 190, 0.32), 5.84964px 5.84964px 17.5489px rgba(0, 0, 0, 0.68);
+border-radius: 9.4px;
+}
+.modal-header {
+    background: linear-gradient(96.36deg, #323246 2.39%, #202036 100%);
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-top: -2px;
+    
+}
+.modal-close{
+    
+    margin-top: -53px;
+    margin-right:-5%;
+    background-color: #D31C23;
+    
+    width: 22px;
+    height: 23px;
+    color: white;
+}
+.modal-title h5{
+    font-size: 12px;
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: bold;
+}
+.modal-header .online{
+    margin-top: 39px;
+    margin-left: -100%;
+   font-size: 9px;
+   color: white;
+   font-weight: 300;
+}
+@media only screen and (min-width: 320px)  and (max-width: 350px) {
+   
+    .modal.fixed-right .modal-dialog-aside{ margin-left:10%; margin-top:26%; transform: translateX(-100%);
+     }
+     .modal.show .modal-dialog-aside{ transform: translateX(0);  }
+     .modal .modal-dialog-aside{
+         width: 90%;
+     }
+     .datepicker{
+         margin-left: -3%;
+     }
+  }
+@media only screen and (min-width: 350px)  and (max-width: 444px) {
+   
+    .modal.fixed-right .modal-dialog-aside{ margin-left:10%; margin-top:26%; transform: translateX(-100%);
+     }
+     .modal.show .modal-dialog-aside{ transform: translateX(0);  }
+     .modal .modal-dialog-aside{
+         width: 90%;
+     }
+     .datepicker{
+         margin-left: -1%;
+     }
+  }
+@media only screen and (min-width: 445px)  and (max-width: 564px) {
+   
+    .modal.fixed-right .modal-dialog-aside{ margin-left:20%; margin-top:19%; transform: translateX(-100%);
+     }
+     .modal.show .modal-dialog-aside{ transform: translateX(0);  }
+     
+
+  }
+@media only screen and (min-width: 565px)  and (max-width: 700px) {
+   
+    .modal.fixed-right .modal-dialog-aside{ margin-left:25%; margin-top:13%; transform: translateX(-100%);
+     }
+     .modal.show .modal-dialog-aside{ transform: translateX(0);  }
+     
+
+  }
+
+  @media only screen and (min-width: 701px)  and (max-width: 786px) {
+   
+    .modal.fixed-right .modal-dialog-aside{ margin-left:30%; margin-top:13%; transform: translateX(-100%);
+     }
+     .modal.show .modal-dialog-aside{ transform: translateX(0);  }
+     
+
+  }
+  @media only screen and (min-width: 786px)  and (max-width: 1050px) {
+   
+    .modal.fixed-right .modal-dialog-aside{ margin-left:50%; margin-top:10%; transform: translateX(-100%);
+     }
+     .modal.show .modal-dialog-aside{ transform: translateX(0);  
+    }
+    .datepicker{
+        
+        margin-left: 1%;
+    }
+     
+
+  }
+  @media only screen and (min-width: 1050px)  and (max-width: 1341px) {
+   
+    .modal.fixed-right .modal-dialog-aside{ margin-left:60%; margin-top:7%; transform: translateX(-100%);
+     }
+     .modal.show .modal-dialog-aside{ transform: translateX(0);  }
+     .datepicker{
+        
+        margin-left: 10px;
+    }
+
+  }
+  @media only screen  and (min-width: 1342px) {
+   
+    .modal.fixed-right .modal-dialog-aside{ margin-left:62%; margin-top:6%; transform: translateX(-100%);
+     }
+     .modal.show .modal-dialog-aside{ transform: translateX(0);  }
+     
+     .datepicker{
+        
+        margin-left: 10px;
+    }
+  }

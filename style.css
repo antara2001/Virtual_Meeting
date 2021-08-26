@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'TT Norms';
+    src: url(TTNorms-Regular.otf);
+  }
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: TT Norms;
+   
+}
+
+
+
+.container-fluid{
+    height: 95vh;
+    
+}
+#heading{
+    
+    color: rgb(255, 255, 255);
+    font-family: TT Norms;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#main {
+    height: 81vh;
+    border-radius: 6px;
+    
+    /* background-image: url(cover.png); 
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; */
+}
+
+/* #cover img{
+    width: inherit;
+    height: inherit;
+} */
+#username{
+   color: white;
+    margin-top: -60px;
+    margin-left: 100px;
+}
+#username span{
+    font-size: 13px;
+}
+#button{
+ 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+    
+}
+
+.option{
+   
+    height: 10vh;
+    margin-top: 90vh;
+}
+
+#button .btn {
+    
+    height: 35px;
+   width: 50px;
+    background-color: #2E2E42;
+    color: #C2C2DC;
+}
+/* #button .btn:hover{
+   
+    background-color:  #C2C2DC;
+    color: black;
+} */
+
+  
+#to{
+    color: #C2C2DC;
+}
+#to:hover{
+    background-color:  #C2C2DC;
+    color: black;
+}
+
+/* @media screen and (max-height: 850px) {
+    #button{
+    
+     justify-content: space-around;
+    
+    }
+
+} */
+@media only screen and (min-width: 320px) and (max-width: 350px) {
+    #main {
+        height: auto;
+        width: 137%;
+        margin-left: -19%;
+        border-radius: 6px;
+    }
+    #username{
+        margin-top: -14%;
+        font-size: 10px;
+    }
+    #username span{
+        font-size: 9px;
+       
+    }
+    #button{
+        margin-left: -20%;
+        width: 134%;
+    }
+    #button .btn{
+        width: 45px;
+    }
+   
+  }
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+    #main {
+        height: auto;
+        width: 120%;
+        margin-left: -10%;
+        border-radius: 6px;
+    }
+  }
+@media only screen and (min-width: 773px) {
+    #hide{
+        display: none;
+    }
+    
+}
+
+@media only screen  and (min-width: 350px) and (max-width: 442px) {
+    #button{
+        margin-left: -15%;
+        width: 125%;
+    }
+    
+        
+    
+    #username span{
+        font-size: 9px;
+       
+    }
+    #username{
+        margin-top: -15%;
+        width: 250px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 772px) {
+    #button{
+        justify-content: center;
+    }
+    
+    .left1{
+        display: none;
+    }
+    #hide1{
+       display: none;
+    }
+    #hide2{
+        display: none;
+    }
+    #hide3{
+        display: none;
+    }
+    #username{
+        margin-left: 10%;
+        
+    }
+    
+  } 
+  @media only screen and (min-width: 644px) and (max-width: 767px) {
+    #username{
+        margin-top: -80px;
+        width: 250px;
+        margin-left: 120px;
+    }
+  }
+   
+
+
+/* .modal .modal-dialog-aside{ 
+	width: 350px; max-width:80%; height: 570px; margin:0;transform: translate(0); transition: transform .2s;
+}
+.modal .modal-dialog-aside .modal-content{  height: inherit; border:0; border-radius: 0;}
+.modal .modal-dialog-aside .modal-content .modal-body{ overflow-y: auto }
+.modal.fixed-left .modal-dialog-aside{ margin-right:auto;  transform: translateX(100%); }
+.modal.fixed-right .modal-dialog-aside{ margin-left:auto; transform: translateX(-100%); }
+.modal.show .modal-dialog-aside{ transform: translateX(0);  }
+
+.modal .modal-body{
+    background: linear-gradient(147.74deg, #323232 -9.84%, #111111 97.2%);
+}
+.modal .modal-dialog-aside{
+    
+    
+    margin-top: 148px;
+}
+.close{
+    margin-top: -60px;
+    margin-right:-17px;
+    background-color: #D31C23;
+    color: white;
+}
+.modal-video{
+    position: absolute;
+width: 31.96px;
+height: 31.96px;
+left: 253.2px;
+top: 30.6px;
+
+background: linear-gradient(102.63deg, #272731 -0.99%, #2D2D3B 101.07%);
+box-shadow: -5.8468px -5.8468px 46.06px rgba(179, 184, 190, 0.32), 5.84964px 5.84964px 17.5489px rgba(0, 0, 0, 0.68);
+border-radius: 9.4px;
+}
+.modal-calender{
+    position: absolute;
+width: 31.96px;
+height: 31.96px;
+left: 300.2px;
+top: 30.6px;
+
+background: linear-gradient(102.63deg, #272731 -0.99%, #2D2D3B 101.07%);
+box-shadow: -5.8468px -5.8468px 46.06px rgba(179, 184, 190, 0.32), 5.84964px 5.84964px 17.5489px rgba(0, 0, 0, 0.68);
+border-radius: 9.4px;
+}
+.modal-header{
+    background: linear-gradient(96.36deg, #323246 2.39%, #202036 100%);
+} */
+
